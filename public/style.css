@@ -1,0 +1,176 @@
+html,
+body {
+    font-family: garmond;
+    background-color: #e4e8f6;
+    color: #613030;
+}
+
+p,
+b,
+a {
+    font-size: 1.1rem;
+}
+
+.container {
+    border: 1px solid #613030;
+    background-color: #e4e8f6;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img-border {
+    border: 10px solid white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.my-input {
+    border-radius: none;
+    width: 50%;
+}
+
+.my-input:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.title {
+    font-family: "IM Fell French Canon SC", serif;
+}
+
+.tagline {
+    margin-bottom: 0px;
+    margin-left: 130px;
+}
+
+.events {
+    margin-top: 20px;
+}
+
+.events h3 {
+    margin-bottom: 1rem;
+}
+
+.events h5 {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.sister-logo {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 100px;
+}
+
+.cb-dvd img {
+    max-width: 110px;
+}
+.newspaper {
+    width: 250px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#slider {
+    background-color: black;
+}
+
+.footer-liner {
+    margin-top: 50px;
+}
+
+.footer {
+    margin-top: 20px;
+    /* padding: 20px 20px 0px 20px; */
+    /* background-color: #83020b; */
+    text-align: center;
+}
+
+.registration-warning {
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 419px) {
+    .newspaper {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+/* Mobile Landscape */
+@media only screen and (max-width: 419px) {
+    .tagline {
+        margin-left: 0px;
+    }
+
+    .carousel-item img {
+        max-height: 150px;
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+    .tagline {
+        margin-left: 0px;
+    }
+
+    .newspaper {
+        width: 150px;
+    }
+
+    .carousel-item img {
+        max-height: 250px;
+        width: auto;
+        margin: auto;
+    }
+
+    .set-height {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .newspaper {
+        width: 250px;
+    }
+    .carousel-inner > .slider-container > .carousel-item > img {
+        max-height: 350px;
+        width: auto;
+        margin: auto;
+    }
+
+    .set-height {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1119px) {
+    .carousel-inner > .slider-container > .carousel-item > img {
+        max-height: 450px;
+        width: auto;
+        margin: auto;
+    }
+
+    .set-height {
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 1119px) {
+    .carousel-inner > .slider-container > .carousel-item > img {
+        max-height: 500px;
+        width: auto;
+        margin: auto;
+    }
+
+    .set-height {
+        height: 500px;
+    }
+}
